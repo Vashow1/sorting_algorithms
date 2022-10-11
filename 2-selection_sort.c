@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * void selection_sort - function that sorts an array of integers in
+ * selection_sort - function that sorts an array of integers in
  * ascending order using the Selection sort algorithm
  *
  * @array: the array to be sorted
@@ -32,7 +32,7 @@ void selection_sort(int *array, size_t size)
 			}
 			index++;
 		}
-		
+
 		if (flag == 1)
 		{
 			array[tempindex] = array[index1];
